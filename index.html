@@ -11,8 +11,8 @@
 	<div id="results"></div>
 <script>
 	$('#silly').click(function(){
-		//SILLY.DoIt($('#results'));
-		$('#results').prepend(Date() + '<br/>');
+		SILLY.DoIt($('#results'));
+		//$('#results').prepend(Date() + '<br/>');
 	});
 	$('#clear').click(function(){
 		$('#results').html('');
